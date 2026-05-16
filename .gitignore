@@ -140,3 +140,8 @@ data/
 venv/
 *.pth
 *.pt
+
+# Env
+env/
+venv/
+myenv/
