@@ -11,18 +11,21 @@
 
 ## 2. create **torchenv** and activate 
 
-### 2.1 using WSL
-
-    python -m venv venv/torchenv
-    source venv/torchenv/bin/activate
-    pip install -r projects/torch-wsl-venv.txt
-
-### 2.2 using conda
+### 2.1 using conda
 
     conda env create -f torch-environment.yml
     conda activate torchenv
 
 
-## start jupyter notebook
+## 3. create env
+    conda create -n myenv python=3.11
 
-    jupyter notebook
+## 4.ติดตั้งRequirements
+    pip install -r requirements.txt
+
+## 5.Runserver Django
+    python mannge.py runserver
+
+## 6.เข้าไปที่imageและเขียนคำสั่งให้บอทเจนภาพออกมา
+
+    ในครั้งแรกอาจจะใช้เวลานานเพราะต้องโหลดโมเดลจาดHagging face 
